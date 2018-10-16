@@ -1,0 +1,227 @@
+body {
+    background: #2E3740;
+    color: #435160;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Out */
+#o_main #o_form {
+    width: 350px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    margin-left: -175px;
+}
+
+#o_main #o_form h2 {
+    color: #6D7781;
+    font-family: 'Sofia', cursive;
+    font-weight: bold;
+    font-size: 3.6em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#o_main #o_form input {
+    width: 350px;
+    padding: 30px 0 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #4f6072;
+    outline: none;
+    color: #6D7781;
+    font-size: 16px;
+}
+
+#o_main #o_form input::placeholder {
+    color: #4f6072;
+    font-size: 15px;
+}
+
+#o_main #o_form #button {
+    margin-top: 40px;
+    padding-top: 10px;
+    background: #1FCE6D;
+    border: 0;
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#o_main #o_form #button:hover {
+    background: #16aa56;
+}
+
+#o_main a {
+    color: #4f6072;
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#o_main a:hover {
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    color: #6D7781;
+}
+
+#o_main #o_form span {
+    width: 350px;
+    position: absolute;
+    margin-top: 10px;
+    font-size: 11px;
+    color: #d2322d;
+}
+
+/* Reg */
+#r_main #r_form {
+    width: 350px;
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    margin-left: -175px;
+}
+
+#r_main #r_form h2 {
+    color: #6D7781;
+    font-family: 'Sofia', cursive;
+    font-weight: bold;
+    font-size: 3.6em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#r_main #r_form input {
+    width: 350px;
+    padding: 30px 0 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #4f6072;
+    outline: none;
+    color: #6D7781;
+    font-size: 16px;
+}
+
+#r_main #r_form input::placeholder {
+    color: #4f6072;
+    font-size: 15px;
+}
+
+#r_main #r_form #button {
+    margin-top: 40px;
+    padding-top: 10px;
+    background: #1FCE6D;
+    border: 0;
+    width: 350px;
+    height: 40px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background .3s ease-in-out;
+}
+
+#r_main #r_form #button:hover {
+    background: #16aa56;
+}
+
+#r_main a {
+    color: #4f6072;
+    text-decoration: none;
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#r_main a:hover {
+    margin-top: 30px;
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    font-weight: bold;
+    color: #6D7781;
+}
+
+#r_main #r_form div > a > img {
+    width: 130px;
+    height: 45px;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -20px;
+}
+
+#r_main #r_form #c_capt {
+    position: absolute;
+}
+
+#r_main #r_form #error {
+    margin-top: 10px;
+    font-size: 15px;
+    position: absolute;
+    color: #d2322d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* User */
+#u_main {
+    border: 1px solid black;
+    background: #f7f0e6;
+    width: 350px;
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    margin-left: -175px;
+    border-radius: 7px;
+    padding: 5px 10px 15px 10px;
+}
+
+#u_main h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #435160;
+}
+
+#u_main div {
+    position: relative;
+    width: 350px;
+    padding: 30px 0 10px;
+    margin-bottom: 5px;
+    bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+#u_main a {
+    position: relative;
+    margin-left: 270px;
+    padding: 5px 10px 5px 10px;
+    background: #1FCE6D;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#u_main a:hover {
+    background: #16aa56;
+}
+
+#ERORR {
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    top: 1%;
+    left: 2%;
+}
